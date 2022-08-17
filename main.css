@@ -69,7 +69,7 @@ ol {
 }
 
 img {
-	width: 95%;
+	/* width: 95%; */
 }
 
 figure {
@@ -93,6 +93,17 @@ section {
 .clearer {
 	clear: both;
 }
+
+/* IMAGES
+--------------------------------------------------------- */
+
+.logo-fixed {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 150px;
+}
+
 
 /* OVERALL CONTAINERS AND COLUMNS
 --------------------------------------------------------- */
