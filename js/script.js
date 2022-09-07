@@ -1,9 +1,10 @@
 $(document).ready(function(){
 	
 
-	/* DISPLAY IMAGE RANDOMIZER */
+	/* RANDOM DISPLAY ORDER OF IMAGES */
 
-	$(".photo-container").html($(".photo-container .photo-item").sort(function(){return Math.random()-.5}));
+
+	
 
 
 	/* MAKE ANCHOR LINKS SMOOTHLY SCROLL */

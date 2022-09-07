@@ -52,15 +52,46 @@
   
 </div>
 
-
 </nav>
+
+
 <div class="container">
 
 	<div class="document">
-		<div class="photo-container">
-      <img src ="assets/logotypes/analyssa.png">
-      <img src ="assets/logotypes/andrea.png">
-    </div>
+    <script>
+
+      var contents_b=new Array()
+      
+      //1) Specify content(s) to display and rotate (extend as desired)
+      contents_b[0]='<img src="assets/logotypes/analyssa.png" width="240">'
+      contents_b[1]='<img src="assets/logotypes/andrea.png" width="240">'
+      contents_b[2]='<img src="assets/logotypes/anthony.png" width="240">'
+      contents_b[3]='<img src="assets/logotypes/david.png" width="240">'
+      contents_b[4]='<img src="assets/logotypes/elise.png" width="240">'
+      contents_b[5]='<img src="assets/logotypes/gabby.png" width="240">'
+      contents_b[6]='<img src="assets/logotypes/hannah.png" width="240">'
+      contents_b[7]='<img src="assets/logotypes/jayden.png" width="240">'
+      contents_b[8]='<img src="assets/logotypes/jianxi.png" width="240">'
+      contents_b[9]='<img src="assets/logotypes/luna.png" width="240">'
+      contents_b[10]='<img src="assets/logotypes/matt.png" width="240">'
+      contents_b[11]='<img src="assets/logotypes/nicole.png" width="240">'
+      contents_b[12]='<img src="assets/logotypes/paige.png" width="240">'
+      contents_b[13]='<img src="assets/logotypes/yijie.png" width="240">'
+
+      var the_one_b
+      var y=0
+      var spacing_b=" "
+      
+      while (y<contents_b.length){
+      the_one_b=Math.floor(Math.random()*contents_b.length)
+      if (contents_b[the_one_b]!="_selected!"){
+      document.write(contents_b[the_one_b]+spacing_b)
+      contents_b[the_one_b]="_selected!"
+      y++
+      }
+      }
+
+      </script>
 
   </div>
 
